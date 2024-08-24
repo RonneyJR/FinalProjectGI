@@ -61,7 +61,6 @@
     <instance objName="obj_road2_3" x="59" y="843" name="inst_824A1C2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_road2_5" x="59" y="587" name="inst_1895AA90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_road2_5" x="59" y="331" name="inst_4A85AD18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_road2_2" x="-26" y="75" name="inst_86691738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor2_2" x="325" y="439" name="inst_3C8D8B86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor2_1" x="1512" y="468" name="inst_80F17F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor2_3" x="1462" y="883" name="inst_0F62660B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -83,6 +82,8 @@
     <instance objName="obj_lake2_2" x="206" y="-139" name="inst_D5B6D515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lake2_3" x="574" y="-119" name="inst_C5CFDA12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_road2_6" x="1839" y="100" name="inst_26C68AB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_road2_5" x="59" y="163" name="inst_49821174" locked="0" code="" scaleX="1" scaleY="0.6640625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tower_2" x="59" y="8" name="inst_14937998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

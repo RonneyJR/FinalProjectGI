@@ -60,7 +60,7 @@
     <instance objName="obj_road1_7" x="473" y="711" name="inst_7C1C6BD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_road1_3" x="217" y="627" name="inst_6482AFB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_road1_5" x="217" y="371" name="inst_F1748CBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_road1_2" x="132" y="117" name="inst_80FD7907" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_road1_2" x="133" y="147" name="inst_80FD7907" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor1_1" x="502" y="295" name="inst_C5B8288C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor1_2" x="464" y="242" name="inst_32BEC7C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor1_2" x="645" y="218" name="inst_6D321AE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -110,6 +110,7 @@
     <instance objName="obj_bush1_2" x="909" y="932" name="inst_40357B20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush1_2" x="1094" y="923" name="inst_E4B48F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="1820" y="131" name="inst_0232D21B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tower_1" x="0" y="126" name="inst_C123D22A" locked="0" code="" scaleX="0.813559293746948" scaleY="0.955555558204651" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

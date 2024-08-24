@@ -96,6 +96,7 @@
     <instance objName="obj_stone_1" x="681" y="331" name="inst_B99F4472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lake" x="-400" y="519" name="inst_D15E24E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor_1" x="-38" y="342" name="inst_8D9D44B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tower_3" x="2" y="105" name="inst_9086D365" locked="0" code="" scaleX="1.14197528362274" scaleY="1.17999994754791" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
