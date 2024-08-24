@@ -49,8 +49,14 @@
           <argument>
             <kind>1</kind>
             <string>count = count+1
-if count = 4 * 30 {
+if count == irandom(4) * 30 {
 instance_create(x, y, obj_enemy_1)
+}
+if count == irandom(8) * 30 {
+instance_create(x, y, obj_enemy_2)
+}
+if count == 12 * 30 {
+instance_create(x, y, obj_enemy_3)
 count = 0
 }
 </string>

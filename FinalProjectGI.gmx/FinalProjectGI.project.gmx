@@ -120,15 +120,21 @@
       <sprites name="Running">
         <sprite>sprites\spr_enemy_1_running</sprite>
         <sprite>sprites\spr_enemy_2_running</sprite>
+        <sprite>sprites\spr_enemy_3_running</sprite>
+        <sprite>sprites\spr_enemy_4_running</sprite>
+        <sprite>sprites\spr_enemy_5_running</sprite>
       </sprites>
       <sprites name="Hurting">
         <sprite>sprites\spr_enemy_1_hurting</sprite>
-      </sprites>
-      <sprites name="Attacking">
-        <sprite>sprites\spr_enemy_1_attacking</sprite>
+        <sprite>sprites\spr_enemy_2_hurting</sprite>
+        <sprite>sprites\spr_enemy_3_hurting</sprite>
+        <sprite>sprites\spr_enemy_4_hurting</sprite>
       </sprites>
       <sprites name="Dying">
         <sprite>sprites\spr_enemy_1_dying</sprite>
+        <sprite>sprites\spr_enemy_2_dying</sprite>
+        <sprite>sprites\spr_enemy_3_dying</sprite>
+        <sprite>sprites\spr_enemy_4_dying</sprite>
       </sprites>
     </sprites>
     <sprites name="Other">
@@ -136,6 +142,11 @@
       <sprite>sprites\spr_tower_2</sprite>
       <sprite>sprites\spr_tower_3</sprite>
     </sprites>
+    <sprite>sprites\sprite104</sprite>
+    <sprite>sprites\sprite105</sprite>
+    <sprite>sprites\sprite107</sprite>
+    <sprite>sprites\sprite108</sprite>
+    <sprite>sprites\spr_</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main_1</background>
@@ -145,6 +156,7 @@
   <paths name="paths">
     <path>paths\p_enemy_main_1</path>
     <path>paths\p_enemy_main_2</path>
+    <path>paths\p_enemy_main_3</path>
   </paths>
   <objects name="objects">
     <objects name="Decoration_1">
@@ -242,9 +254,18 @@
     </objects>
     <objects name="Character">
       <object>objects\obj_character_1</object>
+      <object>objects\obj_card_1</object>
+      <object>objects\obj_card_2</object>
+      <object>objects\obj_card_3</object>
+      <object>objects\obj_card_parents</object>
+      <object>objects\obj_character_parents</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_enemy_1</object>
+      <object>objects\obj_enemy_2</object>
+      <object>objects\obj_enemy_3</object>
+      <object>objects\obj_enemy_4</object>
+      <object>objects\obj_enemy_parents</object>
     </objects>
     <objects name="Other">
       <object>objects\obj_tower_1</object>
@@ -252,10 +273,13 @@
       <object>objects\obj_tower_3</object>
       <object>objects\obj_spawner</object>
     </objects>
+    <object>objects\obj_o</object>
+    <object>objects\obj_x</object>
+    <object>objects\obj_ghost</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_menu</room>
     <room>rooms\r_main_1</room>
+    <room>rooms\r_menu</room>
     <room>rooms\r_main_2</room>
     <room>rooms\r_main_3</room>
     <room>rooms\r_end</room>
