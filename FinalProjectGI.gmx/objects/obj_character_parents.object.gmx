@@ -8,6 +8,29 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>counter = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,15 +48,44 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>position = instance_nearest(x, y, obj_enemy_parents)
-if abs(point_distance(x, y,position.x,position.y)) &lt; 100 {
-    speed = 100
+            <string>counter += 1
+position = instance_nearest(x, y, obj_enemy_parents)
+
+if position and abs(point_distance(x, y,position.x,position.y)) &lt; 500 {
+    if counter == 30{
+         instance_create(x,y,obj_bullet)
+         counter = 0
+    }
     direction = point_direction(x, y,position.x,position.y)
     sprite_index = spr_character_1_attack_1
 } else {
     speed = 0
     sprite_index = spr_character_1_idle
+    
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="82">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_angle += 90
 </string>
           </argument>
         </arguments>

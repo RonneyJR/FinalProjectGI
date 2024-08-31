@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>1</bbox_left>
-  <bbox_right>89</bbox_right>
-  <bbox_top>20</bbox_top>
-  <bbox_bottom>91</bbox_bottom>
+  <bbox_left>10</bbox_left>
+  <bbox_right>95</bbox_right>
+  <bbox_top>16</bbox_top>
+  <bbox_bottom>90</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -30,5 +30,15 @@
     <frame index="7">images\spr_enemy_2_dying_7.png</frame>
     <frame index="8">images\spr_enemy_2_dying_8.png</frame>
     <frame index="9">images\spr_enemy_2_dying_9.png</frame>
+    <frame index="10">images\spr_enemy_2_dying_10.png</frame>
+    <frame index="11">images\spr_enemy_2_dying_11.png</frame>
+    <frame index="12">images\spr_enemy_2_dying_12.png</frame>
+    <frame index="13">images\spr_enemy_2_dying_13.png</frame>
+    <frame index="14">images\spr_enemy_2_dying_14.png</frame>
+    <frame index="15">images\spr_enemy_2_dying_15.png</frame>
+    <frame index="16">images\spr_enemy_2_dying_16.png</frame>
+    <frame index="17">images\spr_enemy_2_dying_17.png</frame>
+    <frame index="18">images\spr_enemy_2_dying_18.png</frame>
+    <frame index="19">images\spr_enemy_2_dying_19.png</frame>
   </frames>
 </sprite>

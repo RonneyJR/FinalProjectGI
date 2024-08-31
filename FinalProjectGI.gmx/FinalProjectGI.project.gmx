@@ -6,114 +6,116 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Decoration_1">
-      <sprite>sprites\spr_bush1_1</sprite>
-      <sprite>sprites\spr_bush1_2</sprite>
-      <sprite>sprites\spr_bush1_3</sprite>
-      <sprite>sprites\spr_decor1_1</sprite>
-      <sprite>sprites\spr_decor1_2</sprite>
-      <sprite>sprites\spr_decor1_3</sprite>
-      <sprite>sprites\spr_decor1_4</sprite>
-      <sprite>sprites\spr_decor1_5</sprite>
-      <sprite>sprites\spr_dot1</sprite>
-      <sprite>sprites\spr_lake1</sprite>
-      <sprite>sprites\spr_stone1</sprite>
-      <sprite>sprites\spr_tree1_1</sprite>
-      <sprite>sprites\spr_tree1_2</sprite>
-    </sprites>
-    <sprites name="Road_1">
-      <sprite>sprites\spr_road1_1</sprite>
-      <sprite>sprites\spr_road1_2</sprite>
-      <sprite>sprites\spr_road1_3</sprite>
-      <sprite>sprites\spr_road1_4</sprite>
-      <sprite>sprites\spr_road1_5</sprite>
-      <sprite>sprites\spr_road1_6</sprite>
-      <sprite>sprites\spr_road1_7</sprite>
-      <sprite>sprites\spr_road1_8</sprite>
-      <sprite>sprites\spr_road1_9</sprite>
-      <sprite>sprites\spr_road1_10</sprite>
-    </sprites>
-    <sprites name="Decoration_2">
-      <sprite>sprites\spr_decor2_1</sprite>
-      <sprite>sprites\spr_decor2_2</sprite>
-      <sprite>sprites\spr_decor2_3</sprite>
-      <sprite>sprites\spr_decor2_4</sprite>
-      <sprite>sprites\spr_decor2_5</sprite>
-      <sprite>sprites\spr_decor2_6</sprite>
-      <sprite>sprites\spr_decor2_7</sprite>
-      <sprite>sprites\spr_dot2</sprite>
-      <sprite>sprites\spr_lake2_1</sprite>
-      <sprite>sprites\spr_lake2_2</sprite>
-      <sprite>sprites\spr_lake2_3</sprite>
-      <sprite>sprites\spr_stone2_1</sprite>
-      <sprite>sprites\spr_stone2_2</sprite>
-      <sprite>sprites\spr_stone2_3</sprite>
-      <sprite>sprites\spr_stone2_4</sprite>
-      <sprite>sprites\spr_stone2_5</sprite>
-      <sprite>sprites\spr_stone2_6</sprite>
-      <sprite>sprites\spr_stone2_7</sprite>
-      <sprite>sprites\spr_stone2_8</sprite>
-    </sprites>
-    <sprites name="Road_2">
-      <sprite>sprites\spr_road2_1</sprite>
-      <sprite>sprites\spr_road2_2</sprite>
-      <sprite>sprites\spr_road2_3</sprite>
-      <sprite>sprites\spr_road2_4</sprite>
-      <sprite>sprites\spr_road2_5</sprite>
-      <sprite>sprites\spr_road2_6</sprite>
-      <sprite>sprites\spr_road2_7</sprite>
-      <sprite>sprites\spr_road2_8</sprite>
-      <sprite>sprites\spr_road2_9</sprite>
-      <sprite>sprites\spr_road2_10</sprite>
-    </sprites>
-    <sprites name="Decoration_3">
-      <sprite>sprites\spr_bridge</sprite>
-      <sprite>sprites\spr_decor_1</sprite>
-      <sprite>sprites\spr_decor_2</sprite>
-      <sprite>sprites\spr_decor_3</sprite>
-      <sprite>sprites\spr_decor_4</sprite>
-      <sprite>sprites\spr_decor_5</sprite>
-      <sprite>sprites\spr_decor_6</sprite>
-      <sprite>sprites\spr_dot</sprite>
-      <sprite>sprites\spr_lake</sprite>
-      <sprite>sprites\spr_stone_1</sprite>
-      <sprite>sprites\spr_stone_2</sprite>
-      <sprite>sprites\spr_tree_1</sprite>
-      <sprite>sprites\spr_tree_2</sprite>
-      <sprite>sprites\spr_river_1</sprite>
-      <sprite>sprites\spr_river_2</sprite>
-      <sprite>sprites\spr_river_3</sprite>
-      <sprite>sprites\spr_river_4</sprite>
-      <sprite>sprites\spr_river_5</sprite>
-      <sprite>sprites\spr_river_6</sprite>
-    </sprites>
-    <sprites name="Road_3">
-      <sprite>sprites\spr_road_1</sprite>
-      <sprite>sprites\spr_road_2</sprite>
-      <sprite>sprites\spr_road_3</sprite>
-      <sprite>sprites\spr_road_4</sprite>
-      <sprite>sprites\spr_road_5</sprite>
-      <sprite>sprites\spr_road_6</sprite>
-      <sprite>sprites\spr_road_7</sprite>
-      <sprite>sprites\spr_road_8</sprite>
-      <sprite>sprites\spr_road_9</sprite>
-      <sprite>sprites\spr_road_10</sprite>
+    <sprites name="All Decoration Of This Map">
+      <sprites name="Decoration_1">
+        <sprite>sprites\spr_bush1_1</sprite>
+        <sprite>sprites\spr_bush1_2</sprite>
+        <sprite>sprites\spr_bush1_3</sprite>
+        <sprite>sprites\spr_decor1_1</sprite>
+        <sprite>sprites\spr_decor1_2</sprite>
+        <sprite>sprites\spr_decor1_3</sprite>
+        <sprite>sprites\spr_decor1_4</sprite>
+        <sprite>sprites\spr_decor1_5</sprite>
+        <sprite>sprites\spr_dot1</sprite>
+        <sprite>sprites\spr_lake1</sprite>
+        <sprite>sprites\spr_stone1</sprite>
+        <sprite>sprites\spr_tree1_1</sprite>
+        <sprite>sprites\spr_tree1_2</sprite>
+      </sprites>
+      <sprites name="Decoration_2">
+        <sprite>sprites\spr_decor2_1</sprite>
+        <sprite>sprites\spr_decor2_2</sprite>
+        <sprite>sprites\spr_decor2_3</sprite>
+        <sprite>sprites\spr_decor2_4</sprite>
+        <sprite>sprites\spr_decor2_5</sprite>
+        <sprite>sprites\spr_decor2_6</sprite>
+        <sprite>sprites\spr_decor2_7</sprite>
+        <sprite>sprites\spr_dot2</sprite>
+        <sprite>sprites\spr_lake2_1</sprite>
+        <sprite>sprites\spr_lake2_2</sprite>
+        <sprite>sprites\spr_lake2_3</sprite>
+        <sprite>sprites\spr_stone2_1</sprite>
+        <sprite>sprites\spr_stone2_2</sprite>
+        <sprite>sprites\spr_stone2_3</sprite>
+        <sprite>sprites\spr_stone2_4</sprite>
+        <sprite>sprites\spr_stone2_5</sprite>
+        <sprite>sprites\spr_stone2_6</sprite>
+        <sprite>sprites\spr_stone2_7</sprite>
+        <sprite>sprites\spr_stone2_8</sprite>
+      </sprites>
+      <sprites name="Decoration_3">
+        <sprite>sprites\spr_bridge</sprite>
+        <sprite>sprites\spr_decor_1</sprite>
+        <sprite>sprites\spr_decor_2</sprite>
+        <sprite>sprites\spr_decor_3</sprite>
+        <sprite>sprites\spr_decor_4</sprite>
+        <sprite>sprites\spr_decor_5</sprite>
+        <sprite>sprites\spr_decor_6</sprite>
+        <sprite>sprites\spr_dot</sprite>
+        <sprite>sprites\spr_lake</sprite>
+        <sprite>sprites\spr_stone_1</sprite>
+        <sprite>sprites\spr_stone_2</sprite>
+        <sprite>sprites\spr_tree_1</sprite>
+        <sprite>sprites\spr_tree_2</sprite>
+        <sprite>sprites\spr_river_1</sprite>
+        <sprite>sprites\spr_river_2</sprite>
+        <sprite>sprites\spr_river_3</sprite>
+        <sprite>sprites\spr_river_4</sprite>
+        <sprite>sprites\spr_river_5</sprite>
+        <sprite>sprites\spr_river_6</sprite>
+      </sprites>
+      <sprites name="Road_1">
+        <sprite>sprites\spr_road1_1</sprite>
+        <sprite>sprites\spr_road1_2</sprite>
+        <sprite>sprites\spr_road1_3</sprite>
+        <sprite>sprites\spr_road1_4</sprite>
+        <sprite>sprites\spr_road1_5</sprite>
+        <sprite>sprites\spr_road1_6</sprite>
+        <sprite>sprites\spr_road1_7</sprite>
+        <sprite>sprites\spr_road1_8</sprite>
+        <sprite>sprites\spr_road1_9</sprite>
+        <sprite>sprites\spr_road1_10</sprite>
+      </sprites>
+      <sprites name="Road_2">
+        <sprite>sprites\spr_road2_1</sprite>
+        <sprite>sprites\spr_road2_2</sprite>
+        <sprite>sprites\spr_road2_3</sprite>
+        <sprite>sprites\spr_road2_4</sprite>
+        <sprite>sprites\spr_road2_5</sprite>
+        <sprite>sprites\spr_road2_6</sprite>
+        <sprite>sprites\spr_road2_7</sprite>
+        <sprite>sprites\spr_road2_8</sprite>
+        <sprite>sprites\spr_road2_9</sprite>
+        <sprite>sprites\spr_road2_10</sprite>
+      </sprites>
+      <sprites name="Road_3">
+        <sprite>sprites\spr_road_1</sprite>
+        <sprite>sprites\spr_road_2</sprite>
+        <sprite>sprites\spr_road_3</sprite>
+        <sprite>sprites\spr_road_4</sprite>
+        <sprite>sprites\spr_road_5</sprite>
+        <sprite>sprites\spr_road_6</sprite>
+        <sprite>sprites\spr_road_7</sprite>
+        <sprite>sprites\spr_road_8</sprite>
+        <sprite>sprites\spr_road_9</sprite>
+        <sprite>sprites\spr_road_10</sprite>
+      </sprites>
     </sprites>
     <sprites name="Character">
       <sprites name="Idle ">
         <sprite>sprites\spr_character_1_idle</sprite>
-      </sprites>
-      <sprites name="Hurt">
-        <sprite>sprites\spr_character_1_hurt</sprite>
+        <sprite>sprites\spr_character_2_idle</sprite>
+        <sprite>sprites\spr_character_3_idle</sprite>
       </sprites>
       <sprites name="Attack_1">
         <sprite>sprites\spr_character_1_attack_1</sprite>
+        <sprite>sprites\spr_character_2_attack_1</sprite>
+        <sprite>sprites\spr_character_3_attack_1</sprite>
       </sprites>
       <sprites name="Attack_2">
         <sprite>sprites\spr_character_1_attack_2</sprite>
-      </sprites>
-      <sprites name="Attack_3">
-        <sprite>sprites\spr_character_1_attack_3</sprite>
+        <sprite>sprites\spr_character_2_attack_2</sprite>
+        <sprite>sprites\spr_character_3_attack_2</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemies">
@@ -123,30 +125,47 @@
         <sprite>sprites\spr_enemy_3_running</sprite>
         <sprite>sprites\spr_enemy_4_running</sprite>
         <sprite>sprites\spr_enemy_5_running</sprite>
+        <sprite>sprites\spr_enemy_6_running</sprite>
+        <sprite>sprites\spr_enemy_7_running</sprite>
+        <sprite>sprites\spr_enemy_8_running</sprite>
+        <sprite>sprites\spr_enemy_9_running</sprite>
       </sprites>
       <sprites name="Hurting">
         <sprite>sprites\spr_enemy_1_hurting</sprite>
         <sprite>sprites\spr_enemy_2_hurting</sprite>
         <sprite>sprites\spr_enemy_3_hurting</sprite>
         <sprite>sprites\spr_enemy_4_hurting</sprite>
+        <sprite>sprites\spr_enemy_5_hurting</sprite>
+        <sprite>sprites\spr_enemy_6_hurting</sprite>
+        <sprite>sprites\spr_enemy_7_hurting</sprite>
+        <sprite>sprites\spr_enemy_8_hurting</sprite>
+        <sprite>sprites\spr_enemy_9_hurting</sprite>
       </sprites>
       <sprites name="Dying">
         <sprite>sprites\spr_enemy_1_dying</sprite>
         <sprite>sprites\spr_enemy_2_dying</sprite>
         <sprite>sprites\spr_enemy_3_dying</sprite>
         <sprite>sprites\spr_enemy_4_dying</sprite>
+        <sprite>sprites\spr_enemy_5_dying</sprite>
+        <sprite>sprites\spr_enemy_6_dying</sprite>
+        <sprite>sprites\spr_enemy_7_dying</sprite>
+        <sprite>sprites\spr_enemy_8_dying</sprite>
+        <sprite>sprites\spr_enemy_9_dying</sprite>
       </sprites>
     </sprites>
     <sprites name="Other">
       <sprite>sprites\spr_tower_1</sprite>
       <sprite>sprites\spr_tower_2</sprite>
       <sprite>sprites\spr_tower_3</sprite>
+      <sprite>sprites\sprite105</sprite>
+      <sprite>sprites\sprite104</sprite>
+      <sprite>sprites\sprite107</sprite>
+      <sprite>sprites\spr_</sprite>
+      <sprite>sprites\sprite108</sprite>
+      <sprite>sprites\spr_o</sprite>
+      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_coin</sprite>
     </sprites>
-    <sprite>sprites\sprite104</sprite>
-    <sprite>sprites\sprite105</sprite>
-    <sprite>sprites\sprite107</sprite>
-    <sprite>sprites\sprite108</sprite>
-    <sprite>sprites\spr_</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main_1</background>
@@ -158,99 +177,102 @@
     <path>paths\p_enemy_main_2</path>
     <path>paths\p_enemy_main_3</path>
   </paths>
+  <scripts name="scripts"/>
   <objects name="objects">
-    <objects name="Decoration_1">
-      <object>objects\obj_bush1_1</object>
-      <object>objects\obj_bush1_2</object>
-      <object>objects\obj_bush1_3</object>
-      <object>objects\obj_decor1_1</object>
-      <object>objects\obj_decor1_2</object>
-      <object>objects\obj_decor1_3</object>
-      <object>objects\obj_decor1_4</object>
-      <object>objects\obj_decor1_5</object>
-      <object>objects\obj_dot1</object>
-      <object>objects\obj_lake1</object>
-      <object>objects\obj_stone1</object>
-      <object>objects\obj_tree1_1</object>
-      <object>objects\obj_tree1_2</object>
-    </objects>
-    <objects name="Road_1">
-      <object>objects\obj_road1_1</object>
-      <object>objects\obj_road1_2</object>
-      <object>objects\obj_road1_3</object>
-      <object>objects\obj_road1_4</object>
-      <object>objects\obj_road1_5</object>
-      <object>objects\obj_road1_6</object>
-      <object>objects\obj_road1_7</object>
-      <object>objects\obj_road1_8</object>
-      <object>objects\obj_road1_9</object>
-      <object>objects\obj_road1_10</object>
-    </objects>
-    <objects name="Decoration_2">
-      <object>objects\obj_decor2_1</object>
-      <object>objects\obj_decor2_2</object>
-      <object>objects\obj_decor2_3</object>
-      <object>objects\obj_decor2_4</object>
-      <object>objects\obj_decor2_5</object>
-      <object>objects\obj_decor2_6</object>
-      <object>objects\obj_decor2_7</object>
-      <object>objects\obj_dot2</object>
-      <object>objects\obj_lake2_1</object>
-      <object>objects\obj_lake2_2</object>
-      <object>objects\obj_lake2_3</object>
-      <object>objects\obj_stone2_1</object>
-      <object>objects\obj_stone2_2</object>
-      <object>objects\obj_stone2_3</object>
-      <object>objects\obj_stone2_4</object>
-      <object>objects\obj_stone2_5</object>
-      <object>objects\obj_stone2_6</object>
-      <object>objects\obj_stone2_7</object>
-      <object>objects\obj_stone2_8</object>
-    </objects>
-    <objects name="Road_2">
-      <object>objects\obj_road2_1</object>
-      <object>objects\obj_road2_2</object>
-      <object>objects\obj_road2_3</object>
-      <object>objects\obj_road2_4</object>
-      <object>objects\obj_road2_5</object>
-      <object>objects\obj_road2_6</object>
-      <object>objects\obj_road2_7</object>
-      <object>objects\obj_road2_8</object>
-      <object>objects\obj_road2_9</object>
-      <object>objects\obj_road2_10</object>
-    </objects>
-    <objects name="Decoration_3">
-      <object>objects\obj_bridge</object>
-      <object>objects\obj_decor_1</object>
-      <object>objects\obj_decor_2</object>
-      <object>objects\obj_decor_3</object>
-      <object>objects\obj_decor_4</object>
-      <object>objects\obj_decor_5</object>
-      <object>objects\obj_decor_6</object>
-      <object>objects\obj_dot</object>
-      <object>objects\obj_lake</object>
-      <object>objects\obj_stone_1</object>
-      <object>objects\obj_stone_2</object>
-      <object>objects\obj_tree_1</object>
-      <object>objects\obj_tree_2</object>
-      <object>objects\obj_river_1</object>
-      <object>objects\obj_river_2</object>
-      <object>objects\obj_river_3</object>
-      <object>objects\obj_river_4</object>
-      <object>objects\obj_river_5</object>
-      <object>objects\obj_river_6</object>
-    </objects>
-    <objects name="Road_3">
-      <object>objects\obj_road_1</object>
-      <object>objects\obj_road_2</object>
-      <object>objects\obj_road_3</object>
-      <object>objects\obj_road_4</object>
-      <object>objects\obj_road_5</object>
-      <object>objects\obj_road_6</object>
-      <object>objects\obj_road_7</object>
-      <object>objects\obj_road_8</object>
-      <object>objects\obj_road_9</object>
-      <object>objects\obj_road_10</object>
+    <objects name="All Decoration Of This Map">
+      <objects name="Decoration_1">
+        <object>objects\obj_bush1_1</object>
+        <object>objects\obj_bush1_2</object>
+        <object>objects\obj_bush1_3</object>
+        <object>objects\obj_decor1_1</object>
+        <object>objects\obj_decor1_2</object>
+        <object>objects\obj_decor1_3</object>
+        <object>objects\obj_decor1_4</object>
+        <object>objects\obj_decor1_5</object>
+        <object>objects\obj_dot1</object>
+        <object>objects\obj_lake1</object>
+        <object>objects\obj_stone1</object>
+        <object>objects\obj_tree1_1</object>
+        <object>objects\obj_tree1_2</object>
+      </objects>
+      <objects name="Decoration_2">
+        <object>objects\obj_decor2_1</object>
+        <object>objects\obj_decor2_2</object>
+        <object>objects\obj_decor2_3</object>
+        <object>objects\obj_decor2_4</object>
+        <object>objects\obj_decor2_5</object>
+        <object>objects\obj_decor2_6</object>
+        <object>objects\obj_decor2_7</object>
+        <object>objects\obj_dot2</object>
+        <object>objects\obj_lake2_1</object>
+        <object>objects\obj_lake2_2</object>
+        <object>objects\obj_lake2_3</object>
+        <object>objects\obj_stone2_1</object>
+        <object>objects\obj_stone2_2</object>
+        <object>objects\obj_stone2_3</object>
+        <object>objects\obj_stone2_4</object>
+        <object>objects\obj_stone2_5</object>
+        <object>objects\obj_stone2_6</object>
+        <object>objects\obj_stone2_7</object>
+        <object>objects\obj_stone2_8</object>
+      </objects>
+      <objects name="Decoration_3">
+        <object>objects\obj_bridge</object>
+        <object>objects\obj_decor_1</object>
+        <object>objects\obj_decor_2</object>
+        <object>objects\obj_decor_3</object>
+        <object>objects\obj_decor_4</object>
+        <object>objects\obj_decor_5</object>
+        <object>objects\obj_decor_6</object>
+        <object>objects\obj_dot</object>
+        <object>objects\obj_lake</object>
+        <object>objects\obj_stone_1</object>
+        <object>objects\obj_stone_2</object>
+        <object>objects\obj_tree_1</object>
+        <object>objects\obj_tree_2</object>
+        <object>objects\obj_river_1</object>
+        <object>objects\obj_river_2</object>
+        <object>objects\obj_river_3</object>
+        <object>objects\obj_river_4</object>
+        <object>objects\obj_river_5</object>
+        <object>objects\obj_river_6</object>
+      </objects>
+      <objects name="Road_1">
+        <object>objects\obj_road1_1</object>
+        <object>objects\obj_road1_2</object>
+        <object>objects\obj_road1_3</object>
+        <object>objects\obj_road1_4</object>
+        <object>objects\obj_road1_5</object>
+        <object>objects\obj_road1_6</object>
+        <object>objects\obj_road1_7</object>
+        <object>objects\obj_road1_8</object>
+        <object>objects\obj_road1_9</object>
+        <object>objects\obj_road1_10</object>
+      </objects>
+      <objects name="Road_2">
+        <object>objects\obj_road2_1</object>
+        <object>objects\obj_road2_2</object>
+        <object>objects\obj_road2_3</object>
+        <object>objects\obj_road2_4</object>
+        <object>objects\obj_road2_5</object>
+        <object>objects\obj_road2_6</object>
+        <object>objects\obj_road2_7</object>
+        <object>objects\obj_road2_8</object>
+        <object>objects\obj_road2_9</object>
+        <object>objects\obj_road2_10</object>
+      </objects>
+      <objects name="Road_3">
+        <object>objects\obj_road_1</object>
+        <object>objects\obj_road_2</object>
+        <object>objects\obj_road_3</object>
+        <object>objects\obj_road_4</object>
+        <object>objects\obj_road_5</object>
+        <object>objects\obj_road_6</object>
+        <object>objects\obj_road_7</object>
+        <object>objects\obj_road_8</object>
+        <object>objects\obj_road_9</object>
+        <object>objects\obj_road_10</object>
+      </objects>
     </objects>
     <objects name="Character">
       <object>objects\obj_character_1</object>
@@ -265,17 +287,26 @@
       <object>objects\obj_enemy_2</object>
       <object>objects\obj_enemy_3</object>
       <object>objects\obj_enemy_4</object>
+      <object>objects\obj_enemy_5</object>
+      <object>objects\obj_enemy_6</object>
+      <object>objects\spr_enemy_7</object>
+      <object>objects\obj_enemy_8</object>
+      <object>objects\obj_enemy_9</object>
       <object>objects\obj_enemy_parents</object>
     </objects>
     <objects name="Other">
       <object>objects\obj_tower_1</object>
       <object>objects\obj_tower_2</object>
       <object>objects\obj_tower_3</object>
+      <object>objects\obj_o</object>
+      <object>objects\obj_x</object>
+      <object>objects\obj_ghost</object>
       <object>objects\obj_spawner</object>
+      <object>objects\obj_skibid</object>
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_coin</object>
+      <object>objects\obj_controller</object>
     </objects>
-    <object>objects\obj_o</object>
-    <object>objects\obj_x</object>
-    <object>objects\obj_ghost</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_main_1</room>
