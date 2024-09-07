@@ -106,16 +106,34 @@
         <sprite>sprites\spr_character_1_idle</sprite>
         <sprite>sprites\spr_character_2_idle</sprite>
         <sprite>sprites\spr_character_3_idle</sprite>
+        <sprite>sprites\spr_character_4_idle</sprite>
+        <sprite>sprites\spr_character_5_idle</sprite>
+        <sprite>sprites\spr_character_6_idle</sprite>
+        <sprite>sprites\spr_character_7_idle</sprite>
+        <sprite>sprites\spr_character_8_idle</sprite>
+        <sprite>sprites\spr_character_9_idle</sprite>
       </sprites>
       <sprites name="Attack_1">
         <sprite>sprites\spr_character_1_attack_1</sprite>
         <sprite>sprites\spr_character_2_attack_1</sprite>
         <sprite>sprites\spr_character_3_attack_1</sprite>
+        <sprite>sprites\spr_character_4_attack_1</sprite>
+        <sprite>sprites\spr_character_5_attack_1</sprite>
+        <sprite>sprites\spr_character_6_attack_1</sprite>
+        <sprite>sprites\spr_character_7_attack_1</sprite>
+        <sprite>sprites\spr_character_8_attack_1</sprite>
+        <sprite>sprites\spr_character_9_attack_1</sprite>
       </sprites>
       <sprites name="Attack_2">
         <sprite>sprites\spr_character_1_attack_2</sprite>
         <sprite>sprites\spr_character_2_attack_2</sprite>
         <sprite>sprites\spr_character_3_attack_2</sprite>
+        <sprite>sprites\spr_character_4_attack_2</sprite>
+        <sprite>sprites\spr_character_5_attack_2</sprite>
+        <sprite>sprites\spr_character_6_attack_2</sprite>
+        <sprite>sprites\spr_character_7_attack_2</sprite>
+        <sprite>sprites\spr_character_8_attack_2</sprite>
+        <sprite>sprites\spr_character_9_attack_2</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemies">
@@ -157,27 +175,35 @@
       <sprite>sprites\spr_tower_1</sprite>
       <sprite>sprites\spr_tower_2</sprite>
       <sprite>sprites\spr_tower_3</sprite>
-      <sprite>sprites\sprite105</sprite>
-      <sprite>sprites\sprite104</sprite>
-      <sprite>sprites\sprite107</sprite>
-      <sprite>sprites\spr_</sprite>
-      <sprite>sprites\sprite108</sprite>
+      <sprite>sprites\spr_x</sprite>
+      <sprite>sprites\spr_o_red</sprite>
       <sprite>sprites\spr_o</sprite>
-      <sprite>sprites\spr_bullet</sprite>
+      <sprite>sprites\spr_bullet_1</sprite>
+      <sprite>sprites\spr_bullet_2</sprite>
       <sprite>sprites\spr_coin</sprite>
+      <sprite>sprites\spr_card_1</sprite>
+      <sprite>sprites\spr_card_2</sprite>
+      <sprite>sprites\spr_card_3</sprite>
+    </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\spr_play_button</sprite>
+      <sprite>sprites\spr_replay_button</sprite>
+      <sprite>sprites\spr_menu_button</sprite>
+      <sprite>sprites\spr_exit_button</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_main_1</background>
     <background>background\bg_main_2</background>
     <background>background\bg_main_3</background>
+    <background>background\bg_menu</background>
+    <background>background\bg_end</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\p_enemy_main_1</path>
     <path>paths\p_enemy_main_2</path>
     <path>paths\p_enemy_main_3</path>
   </paths>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="All Decoration Of This Map">
       <objects name="Decoration_1">
@@ -276,6 +302,14 @@
     </objects>
     <objects name="Character">
       <object>objects\obj_character_1</object>
+      <object>objects\obj_character_2</object>
+      <object>objects\obj_character_3</object>
+      <object>objects\obj_character_4</object>
+      <object>objects\obj_character_5</object>
+      <object>objects\obj_character_6</object>
+      <object>objects\obj_character_7</object>
+      <object>objects\obj_character_8</object>
+      <object>objects\obj_character_9</object>
       <object>objects\obj_card_1</object>
       <object>objects\obj_card_2</object>
       <object>objects\obj_card_3</object>
@@ -306,6 +340,12 @@
       <object>objects\obj_bullet</object>
       <object>objects\obj_coin</object>
       <object>objects\obj_controller</object>
+    </objects>
+    <objects name="GUI">
+      <object>objects\obj_play_button</object>
+      <object>objects\obj_replay_button</object>
+      <object>objects\obj_menu_button</object>
+      <object>objects\obj_exit_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
