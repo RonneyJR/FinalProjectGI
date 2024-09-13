@@ -52,15 +52,15 @@
 position = instance_nearest(x, y, obj_enemy_parents)
 
 if position and abs(point_distance(x, y,position.x,position.y)) &lt; 500 {
-    if counter == 30{
+    if counter &gt;= 30{
          instance_create(x,y,obj_bullet)
          counter = 0
     }
     direction = point_direction(x, y,position.x,position.y)
-    sprite_index = spr_character_1_attack_1
+
 } else {
     speed = 0
-    sprite_index = spr_character_1_idle
+
     
 }
 </string>

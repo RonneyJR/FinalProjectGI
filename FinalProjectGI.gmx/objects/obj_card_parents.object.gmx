@@ -25,15 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>position = instance_nearest(x, y, obj_x)
-//if (score &gt;= 10) {
-    score -= 10
-    instance_create(mouse_x, mouse_y, obj_ghost)
-    
-    with (position) {
-        event_perform(ev_mouse, ev_left_press)
+            <string>    position = instance_nearest(x, y, obj_x)
+    if (lives &gt;= 10) {
+        lives -= 10
+        instance_create(mouse_x, mouse_y, obj_ghost)
+        
+        with (position) {
+            event_perform(ev_mouse, ev_left_press)
+        } 
     }
-//}
 </string>
           </argument>
         </arguments>

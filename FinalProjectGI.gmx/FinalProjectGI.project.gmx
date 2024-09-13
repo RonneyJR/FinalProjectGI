@@ -4,7 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sou_click</sound>
+    <sound>sound\sou_enemy_death</sound>
+    <sound>sound\sou_enemy_hurt</sound>
+    <sound>sound\sou_slash</sound>
+    <sound>sound\sou_gun_shoot</sound>
+    <sound>sound\sou_laser</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="All Decoration Of This Map">
       <sprites name="Decoration_1">
@@ -180,6 +187,9 @@
       <sprite>sprites\spr_o</sprite>
       <sprite>sprites\spr_bullet_1</sprite>
       <sprite>sprites\spr_bullet_2</sprite>
+      <sprite>sprites\spr_electro</sprite>
+      <sprite>sprites\spr_fire</sprite>
+      <sprite>sprites\spr_laser</sprite>
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_card_1</sprite>
       <sprite>sprites\spr_card_2</sprite>
@@ -190,6 +200,7 @@
       <sprite>sprites\spr_replay_button</sprite>
       <sprite>sprites\spr_menu_button</sprite>
       <sprite>sprites\spr_exit_button</sprite>
+      <sprite>sprites\spr_back_button</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -334,11 +345,15 @@
       <object>objects\obj_tower_3</object>
       <object>objects\obj_o</object>
       <object>objects\obj_x</object>
+      <object>objects\obj_skibid</object>
+      <object>objects\obj_bullet_1</object>
+      <object>objects\obj_bullet_2</object>
+      <object>objects\obj_electro</object>
+      <object>objects\obj_fire</object>
+      <object>objects\obj_laser</object>
+      <object>objects\obj_coin</object>
       <object>objects\obj_ghost</object>
       <object>objects\obj_spawner</object>
-      <object>objects\obj_skibid</object>
-      <object>objects\obj_bullet</object>
-      <object>objects\obj_coin</object>
       <object>objects\obj_controller</object>
     </objects>
     <objects name="GUI">
@@ -346,13 +361,15 @@
       <object>objects\obj_replay_button</object>
       <object>objects\obj_menu_button</object>
       <object>objects\obj_exit_button</object>
+      <object>objects\obj_back_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_main_1</room>
     <room>rooms\r_menu</room>
+    <room>rooms\r_main_1</room>
     <room>rooms\r_main_2</room>
     <room>rooms\r_main_3</room>
+    <room>rooms\r_guide</room>
     <room>rooms\r_end</room>
     <room>rooms\r_win</room>
   </rooms>

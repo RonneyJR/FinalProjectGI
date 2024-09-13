@@ -3,7 +3,7 @@
   <spriteName>spr_card_1</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-9999</depth>
+  <depth>-999</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -72,7 +72,7 @@ y = mouse_y
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x, y, obj_character_1)
+            <string>instance_create(x, y, choose (obj_character_1,obj_character_2,obj_character_3))
 with obj_skibid{
 instance_destroy()
 }
