@@ -3,7 +3,7 @@
   <spriteName>spr_o</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-999</depth>
+  <depth>-9999</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = obj_ghost.x
-y = obj_ghost.y
+            <string>x = mouse_x
+y = mouse_y
 </string>
           </argument>
         </arguments>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>100</string>
           </argument>
         </arguments>
       </action>
@@ -67,8 +67,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if score &gt; 100
+            <string>if score &lt;= 0
 {room_goto_next()}
+if room == r_win {
+audio_play_sound(sou_win,0,false)
+}
 </string>
           </argument>
         </arguments>
@@ -91,15 +94,15 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>x</string>
+            <string>x </string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>y</string>
+            <string>y - 20</string>
           </argument>
           <argument>
             <kind>1</kind>
-            <string>Score: </string>
+            <string>The Remaining enemy :</string>
           </argument>
         </arguments>
       </action>

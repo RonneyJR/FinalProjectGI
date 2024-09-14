@@ -5,12 +5,14 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\sou_menu</sound>
+    <sound>sound\sou_main</sound>
     <sound>sound\sou_click</sound>
     <sound>sound\sou_enemy_death</sound>
-    <sound>sound\sou_enemy_hurt</sound>
-    <sound>sound\sou_slash</sound>
     <sound>sound\sou_gun_shoot</sound>
-    <sound>sound\sou_laser</sound>
+    <sound>sound\sou_slash</sound>
+    <sound>sound\sou_lose</sound>
+    <sound>sound\sou_win</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="All Decoration Of This Map">
@@ -120,27 +122,16 @@
         <sprite>sprites\spr_character_8_idle</sprite>
         <sprite>sprites\spr_character_9_idle</sprite>
       </sprites>
-      <sprites name="Attack_1">
-        <sprite>sprites\spr_character_1_attack_1</sprite>
-        <sprite>sprites\spr_character_2_attack_1</sprite>
-        <sprite>sprites\spr_character_3_attack_1</sprite>
-        <sprite>sprites\spr_character_4_attack_1</sprite>
-        <sprite>sprites\spr_character_5_attack_1</sprite>
-        <sprite>sprites\spr_character_6_attack_1</sprite>
-        <sprite>sprites\spr_character_7_attack_1</sprite>
-        <sprite>sprites\spr_character_8_attack_1</sprite>
-        <sprite>sprites\spr_character_9_attack_1</sprite>
-      </sprites>
-      <sprites name="Attack_2">
-        <sprite>sprites\spr_character_1_attack_2</sprite>
-        <sprite>sprites\spr_character_2_attack_2</sprite>
-        <sprite>sprites\spr_character_3_attack_2</sprite>
-        <sprite>sprites\spr_character_4_attack_2</sprite>
-        <sprite>sprites\spr_character_5_attack_2</sprite>
-        <sprite>sprites\spr_character_6_attack_2</sprite>
-        <sprite>sprites\spr_character_7_attack_2</sprite>
-        <sprite>sprites\spr_character_8_attack_2</sprite>
-        <sprite>sprites\spr_character_9_attack_2</sprite>
+      <sprites name="Shoot , Laser">
+        <sprite>sprites\spr_character_1_shoot</sprite>
+        <sprite>sprites\spr_character_2_shoot</sprite>
+        <sprite>sprites\spr_character_3_shoot</sprite>
+        <sprite>sprites\spr_character_4_shoot</sprite>
+        <sprite>sprites\spr_character_5_shoot</sprite>
+        <sprite>sprites\spr_character_6_attack</sprite>
+        <sprite>sprites\spr_character_7_shoot</sprite>
+        <sprite>sprites\spr_character_8_shoot</sprite>
+        <sprite>sprites\spr_character_9_shoot</sprite>
       </sprites>
     </sprites>
     <sprites name="Enemies">
@@ -155,28 +146,6 @@
         <sprite>sprites\spr_enemy_8_running</sprite>
         <sprite>sprites\spr_enemy_9_running</sprite>
       </sprites>
-      <sprites name="Hurting">
-        <sprite>sprites\spr_enemy_1_hurting</sprite>
-        <sprite>sprites\spr_enemy_2_hurting</sprite>
-        <sprite>sprites\spr_enemy_3_hurting</sprite>
-        <sprite>sprites\spr_enemy_4_hurting</sprite>
-        <sprite>sprites\spr_enemy_5_hurting</sprite>
-        <sprite>sprites\spr_enemy_6_hurting</sprite>
-        <sprite>sprites\spr_enemy_7_hurting</sprite>
-        <sprite>sprites\spr_enemy_8_hurting</sprite>
-        <sprite>sprites\spr_enemy_9_hurting</sprite>
-      </sprites>
-      <sprites name="Dying">
-        <sprite>sprites\spr_enemy_1_dying</sprite>
-        <sprite>sprites\spr_enemy_2_dying</sprite>
-        <sprite>sprites\spr_enemy_3_dying</sprite>
-        <sprite>sprites\spr_enemy_4_dying</sprite>
-        <sprite>sprites\spr_enemy_5_dying</sprite>
-        <sprite>sprites\spr_enemy_6_dying</sprite>
-        <sprite>sprites\spr_enemy_7_dying</sprite>
-        <sprite>sprites\spr_enemy_8_dying</sprite>
-        <sprite>sprites\spr_enemy_9_dying</sprite>
-      </sprites>
     </sprites>
     <sprites name="Other">
       <sprite>sprites\spr_tower_1</sprite>
@@ -186,10 +155,6 @@
       <sprite>sprites\spr_o_red</sprite>
       <sprite>sprites\spr_o</sprite>
       <sprite>sprites\spr_bullet_1</sprite>
-      <sprite>sprites\spr_bullet_2</sprite>
-      <sprite>sprites\spr_electro</sprite>
-      <sprite>sprites\spr_fire</sprite>
-      <sprite>sprites\spr_laser</sprite>
       <sprite>sprites\spr_coin</sprite>
       <sprite>sprites\spr_card_1</sprite>
       <sprite>sprites\spr_card_2</sprite>
@@ -209,6 +174,8 @@
     <background>background\bg_main_3</background>
     <background>background\bg_menu</background>
     <background>background\bg_end</background>
+    <background>background\bg_guide</background>
+    <background>background\bg_win</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\p_enemy_main_1</path>
@@ -321,10 +288,6 @@
       <object>objects\obj_character_7</object>
       <object>objects\obj_character_8</object>
       <object>objects\obj_character_9</object>
-      <object>objects\obj_card_1</object>
-      <object>objects\obj_card_2</object>
-      <object>objects\obj_card_3</object>
-      <object>objects\obj_card_parents</object>
       <object>objects\obj_character_parents</object>
     </objects>
     <objects name="Enemies">
@@ -334,27 +297,10 @@
       <object>objects\obj_enemy_4</object>
       <object>objects\obj_enemy_5</object>
       <object>objects\obj_enemy_6</object>
-      <object>objects\spr_enemy_7</object>
+      <object>objects\obj_enemy_7</object>
       <object>objects\obj_enemy_8</object>
       <object>objects\obj_enemy_9</object>
       <object>objects\obj_enemy_parents</object>
-    </objects>
-    <objects name="Other">
-      <object>objects\obj_tower_1</object>
-      <object>objects\obj_tower_2</object>
-      <object>objects\obj_tower_3</object>
-      <object>objects\obj_o</object>
-      <object>objects\obj_x</object>
-      <object>objects\obj_skibid</object>
-      <object>objects\obj_bullet_1</object>
-      <object>objects\obj_bullet_2</object>
-      <object>objects\obj_electro</object>
-      <object>objects\obj_fire</object>
-      <object>objects\obj_laser</object>
-      <object>objects\obj_coin</object>
-      <object>objects\obj_ghost</object>
-      <object>objects\obj_spawner</object>
-      <object>objects\obj_controller</object>
     </objects>
     <objects name="GUI">
       <object>objects\obj_play_button</object>
@@ -363,15 +309,58 @@
       <object>objects\obj_exit_button</object>
       <object>objects\obj_back_button</object>
     </objects>
+    <objects name="Ghost">
+      <object>objects\obj_ghost_1</object>
+      <object>objects\obj_ghost_2</object>
+      <object>objects\obj_ghost_3</object>
+      <object>objects\obj_ghost_4</object>
+      <object>objects\obj_ghost_5</object>
+      <object>objects\obj_ghost_6</object>
+      <object>objects\obj_ghost_7</object>
+      <object>objects\obj_ghost_8</object>
+      <object>objects\obj_ghost_9</object>
+      <object>objects\obj_ghost_parents</object>
+    </objects>
+    <objects name="Card">
+      <object>objects\obj_card_1</object>
+      <object>objects\obj_card_2</object>
+      <object>objects\obj_card_3</object>
+      <object>objects\obj_card_4</object>
+      <object>objects\obj_card_5</object>
+      <object>objects\obj_card_6</object>
+      <object>objects\obj_card_7</object>
+      <object>objects\obj_card_8</object>
+      <object>objects\obj_card_9</object>
+      <object>objects\obj_card_parents</object>
+    </objects>
+    <objects name="Other">
+      <object>objects\obj_tower_1</object>
+      <object>objects\obj_tower_2</object>
+      <object>objects\obj_tower_3</object>
+      <object>objects\obj_o</object>
+      <object>objects\obj_o_2</object>
+      <object>objects\obj_o_3</object>
+      <object>objects\obj_x</object>
+      <object>objects\obj_x_2</object>
+      <object>objects\obj_x_3</object>
+      <object>objects\obj_skibid</object>
+      <object>objects\obj_bullet</object>
+      <object>objects\obj_coin</object>
+      <object>objects\obj_spawner_1</object>
+      <object>objects\obj_spawner_2</object>
+      <object>objects\obj_spawner_3</object>
+      <object>objects\obj_controller</object>
+      <object>objects\obj_sound_menu</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
     <room>rooms\r_main_1</room>
     <room>rooms\r_main_2</room>
     <room>rooms\r_main_3</room>
+    <room>rooms\r_win</room>
     <room>rooms\r_guide</room>
     <room>rooms\r_end</room>
-    <room>rooms\r_win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

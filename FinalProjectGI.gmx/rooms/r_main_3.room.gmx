@@ -96,7 +96,12 @@
     <instance objName="obj_stone_1" x="681" y="331" name="inst_B99F4472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lake" x="-400" y="519" name="inst_D15E24E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_decor_1" x="-38" y="342" name="inst_8D9D44B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tower_3" x="2" y="105" name="inst_9086D365" locked="0" code="" scaleX="1.14197528362274" scaleY="1.17999994754791" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawner_3" x="1886" y="160" name="inst_A1ADF8E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_road_6" x="1886" y="87" name="inst_712EEF2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_o_3" x="688" y="669" name="inst_D3825CCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="428" y="743" name="inst_3EE91DF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_controller" x="472" y="750" name="inst_D22B20A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tower_3" x="51" y="133" name="inst_1D1DB28F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

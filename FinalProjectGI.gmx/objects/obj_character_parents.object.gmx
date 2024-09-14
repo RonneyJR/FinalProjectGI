@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>counter = 0
+state = 1
 </string>
           </argument>
         </arguments>
@@ -51,18 +52,24 @@
             <string>counter += 1
 position = instance_nearest(x, y, obj_enemy_parents)
 
-if position and abs(point_distance(x, y,position.x,position.y)) &lt; 500 {
+if position and abs(point_distance(x, y,position.x,position.y)) &lt; 300 {
     if counter &gt;= 30{
          instance_create(x,y,obj_bullet)
+         audio_play_sound(sou_gun_shoot,0,false)
          counter = 0
     }
     direction = point_direction(x, y,position.x,position.y)
-
+if x &gt; position.x {
+   image_xscale = 1
 } else {
-    speed = 0
-
-    
+   image_xscale = -1
 }
+    state = 2
+} else {
+    state = 1
+    speed = 0   
+}
+
 </string>
           </argument>
         </arguments>
